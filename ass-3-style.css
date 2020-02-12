@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+}
+
+.back-to-top {
+    bottom: 0;
+    margin: 0px 0px 75px 0px;
+    position: fixed; 
+    padding: 20px 27px 10px 7px;
+    background-color: rgba(0, 0, 0, 0.37); 
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color:#fff; 
+    background-image: url('up.png');
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+    transition: 150ms all ease-in-out;
+
+}
+
+.back-to-top:hover {
+    background-color: #000;
+    padding-left: 17px;
+    background-position-x: 14px;
+    
+}
+
+.on-this-page {
+    margin: 0;
+    top: 0; 
+    margin-bottom: 30px;
+    /* text-align: center;
+    justify-items: center; */
+    background-color: #fff;
+    border-bottom: 1.3px solid rgb(216, 216, 216);
+    position: sticky;
+    z-index: 1;
+}
+
+.on-this-page ul {
+    margin: 0;
+    display: flex;
+    overflow-x: scroll;
+}
+.on-this-page ul li {
+    font-family: 'Open Sans';
+    list-style-type: none;
+    white-space: nowrap;
+    margin: 10px;
+}
+
+.on-this-page ul li a {
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+    padding: 2px 17px;
+}
+
+.on-this-page ul li a:hover {
+    color: rgb(17, 204, 95);
+
+}
+
+.biographies {
+    /* width: 90%; */
+    /* height: 90vh; */
+    /* margin-left: 20px; */
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.personality {
+    width: 400px;
+    height: 95vh;
+    box-sizing: border-box;
+    background-color: #fff;
+    /* border-radius: 15px; */
+    margin: 0px 15px 25px 15px;
+    /* border: 5px solid #000; */
+    border-radius: 8px;
+    box-shadow: 0px 1px 6px rgb(182, 182, 182);
+}
+
+.header, .header-alternate {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-y: -25px; */
+    width: auto;
+    height: 23%;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.header p, .header-alternate p {
+    color: #fff;
+    margin: 0;
+    font-family: 'Raleway';
+    text-shadow: 2px 3px 5px rgb(46, 46, 46);
+
+}
+
+.header p {
+    padding-left: 27px;
+}
+
+.header-alternate p {
+    padding-right: 27px;
+    text-align: right;
+
+}
+
+.personality-name {
+    font-size: 16pt;
+    padding-top: 27px ;
+    padding-bottom: 10px;
+}
+
+.personality-career, 
+.personality-nationality,
+.personality-lifespan {
+    font-size: 10pt;
+    padding-top: 2px;
+
+}
+
+.personality-lifespan {
+    padding-bottom: 20px;
+}
+
+.personality-bio {
+    margin: 0;
+    /* margin-bottom: 15px; */
+    height: 77%;
+    width: auto;
+    padding: 0px 27px;
+    align-items: center;
+    justify-content: center ;
+    /* border-radius: inherit; */
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    font-family: 'Open Sans';
+    /* background-color: khaki; */
+    font-size: 11pt;
+    
+}
+
+.bio-top-margin {
+    height: 3%;
+    margin: 0;
+}
+
+.bio-content {
+    /* margin-bottom: 15px; */
+    margin: 0;
+    height: 83%;
+    box-sizing: border-box;
+    /* text-align: justify; */
+    overflow-y: scroll;
+}
+
+.bio-content p {
+    height: auto;
+    margin: 0;
+    /* margin-top: 10px; */
+}
+
+.bio-content span {
+    color: rgb(253, 42, 70);
+}
+
+.bio-content::-webkit-scrollbar {
+    width: 0px;
+}
+
+.read-more {
+    text-decoration: none;
+    margin:0;
+    height: 14%;
+}
+
+.read-more p {
+    background-color: transparent;
+    text-align: center;
+    color: rgb(253, 42, 70);
+    padding: 12px;
+    width: auto;
+    border: 1.3px solid rgb(253, 42, 70);
+    border-radius: 4px;
+    transition: 20ms all ease-in-out;
+}
+
+.read-more p:hover,
+.read-more p:focus {
+    color: #fff;
+    background-color: rgb(253, 42, 70);
+
+}
